@@ -353,8 +353,9 @@ let package = Package(
             dependencies: [
                 .product(name: "Containerization", package: "containerization"),
                 .product(name: "ContainerizationExtras", package: "containerization"),
-                "ContainerAPIService",
+                .product(name: "ContainerizationOCI", package: "containerization"),
                 "ContainerResource",
+                "ContainerAPIService",
             ]
         ),
         .target(
@@ -393,6 +394,7 @@ let package = Package(
             dependencies: [
                 .product(name: "Containerization", package: "containerization"),
                 "ContainerResource",
+                "ContainerSandboxService",
                 "ContainerSandboxServiceClient",
             ]
         ),
