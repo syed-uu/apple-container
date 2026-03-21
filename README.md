@@ -1,3 +1,5 @@
+<img width="137" height="144" alt="container 0ab19e47" src="https://github.com/user-attachments/assets/5c877a34-3904-4ab3-8ffc-9b3908337c94" />
+
 # `container`
 
 `container` is a tool that you can use to create and run Linux containers as lightweight virtual machines on your Mac. It's written in Swift, and optimized for Apple silicon.
